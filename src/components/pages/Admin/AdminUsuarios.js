@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
 import Header from './TemplatesAdmin/Header'
 import Menu from './TemplatesAdmin/Menu'
-import Dashboard from './TemplatesAdmin/Dashboard'
-import Footer from '../../navegation/footer/Footer'
+import Dashboard from './TemplatesAdmin/DashboardAdmUsuarios'
 
 export default class AdminUsuarios extends Component {
   render() {
@@ -11,7 +10,7 @@ export default class AdminUsuarios extends Component {
         <Header/>
         <Menu/>
         <Dashboard/>
-        <Footer/>
+        
       </div>
     )
   }
