@@ -7,6 +7,7 @@ import Noticias from './components/pages/Noticias/Noticias'
 import Tecnologias from './components/pages/Tecnologias/Tecnologias'
 import Login from './components/pages/Login/Login'
 import Registro from './components/pages/Registro/Registro'
+import Investigadores from './components/pages/Investigadores/Investigadores';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <Route path='Acerca' element={<Acerca />}/>
             <Route path='Noticias' element={<Noticias />}/>
             <Route path='Tecnologias' element={<Tecnologias />}/>
+            <Route path='Investigadores' element={<Investigadores />}/>
             <Route path='Login' element={<Login/>}/>
             <Route path='Registro' element={<Registro/>}/>
             <Route path='*' element={<Navigate replace to="/"/>}/>
