@@ -1,13 +1,11 @@
 import React, { Component } from 'react'
-import imagenes from '../../../../assets/imagenes'
 
 export default class Menu extends Component {
     render() {
         return (
-            <div>
+            <div class="wraper">
                 <aside className="main-sidebar sidebar-dark-primary elevation-4">
                     <a href="index3.html" className="brand-link">
-                        <img src={imagenes.img1} alt="AdminLTE Logo" className="brand-image img-circle elevation-3" style={{ opacity: '.8' }} />
                         <span className="brand-text font-weight-light">Admin HappLab</span>
                     </a>
                     <div className="sidebar">
@@ -26,21 +24,21 @@ export default class Menu extends Component {
                                     <a href="#" className="nav-link active">
                                         <i className="nav-icon fas fa-tachometer-alt" />
                                         <p>
-                                            Dashboard
+                                            Administrar
                                             <i className="right fas fa-angle-left" />
                                         </p>
                                     </a>
                                     <ul className="nav nav-treeview">
                                         <li className="nav-item">
-                                            <a href="./index.html" className="nav-link active">
+                                            <a href='./components/pages/Admin/AdminUsuarios' className="nav-link active">
                                                 <i className="far fa-circle nav-icon" />
-                                                <p>Dashboard v1</p>
+                                                <p>Administrar usuarios</p>
                                             </a>
                                         </li>
                                         <li className="nav-item">
                                             <a href="./index2.html" className="nav-link">
                                                 <i className="far fa-circle nav-icon" />
-                                                <p>Dashboard v2</p>
+                                                <p>Administrar inicio</p>
                                             </a>
                                         </li>
                                         <li className="nav-item">
