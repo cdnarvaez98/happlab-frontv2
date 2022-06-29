@@ -82,13 +82,9 @@
 
 .row-cont .col-text{
   text-align: center;
-  column-fill: auto;
   margin: 20px;
-  
 }
 
 .row-cont .col-video{
-  column-fill: auto;
-  height: 300px;
   margin: 20px;
 }
